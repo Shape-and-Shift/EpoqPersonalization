@@ -11,7 +11,7 @@ This plugin integrates the Epoq Personalization service into Shopware 6.
 ## Install
 
 Download the plugin from the release page and enable it in shopware.
-<img width="1904" alt="Bildschirmfoto 2021-11-04 um 12 10 00" src="https://user-images.githubusercontent.com/8193345/140297401-ba3e89b0-e448-4397-b423-7fc84128b91d.png">
+<img width="1904" alt="epoq-tenant-test" src="https://user-images.githubusercontent.com/8193345/140390667-10ac47ce-ac98-4e20-b1b0-b88f6691547e.png">
 
 ## Usage
 
