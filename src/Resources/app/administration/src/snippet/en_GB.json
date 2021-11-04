@@ -1,0 +1,8 @@
+{
+    "epoq-api-test-button": {
+        "title": "Tenant ID Test",
+        "success": "Connection was successfully tested",
+        "error": "Connection could not be established. Please check the access data",
+        "button": "Test Tenant ID"
+    }
+}

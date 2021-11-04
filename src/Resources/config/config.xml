@@ -12,5 +12,9 @@
             <helpText>
                 <![CDATA[Enter your Tenant ID from Epoq to be able to use the personalization.]]></helpText>
         </input-field>
+        <component name="epoq-api-test-button">
+            <name>apiTest</name>
+            <label>Tenant ID testen</label>
+        </component>
     </card>
 </config>
