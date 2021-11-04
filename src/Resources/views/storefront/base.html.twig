@@ -1,0 +1,8 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+
+{#  use this block to include scripts in extending files  #}
+{% block base_body_script %}
+    {{ parent() }}
+
+    {% sw_include "@Storefront/storefront/epoq/index.html.twig" %}
+{% endblock %}

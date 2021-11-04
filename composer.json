@@ -1,0 +1,46 @@
+{
+    "name":"epoq/personalization",
+    "keywords": [
+        "shopware",
+        "epoq",
+        "personalization",
+        "search"
+    ],
+    "description":"Epoq Personalization",
+    "type":"shopware-platform-plugin",
+    "version":"1.0.0",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Shape & Shift LTD"
+        }
+    ],
+    "require": {
+        "shopware/core": "~6.4"
+    },
+    "autoload":{
+        "psr-4":{
+            "Epoq\\Personalization\\":"src/"
+        }
+    },
+    "extra":{
+        "shopware-plugin-class":"Epoq\\Personalization\\EpoqPersonalization",
+        "copyright":"(c) 2021 by Epoq GmbH",
+        "label":{
+            "de-DE":"Epoq Personalisierung",
+            "en-GB":"Epoq Personalization"
+        },
+        "description": {
+            "de-DE": "Personalisierung im E-Commerce schafft Einkaufserlebnisse und das macht den Unterschied – denn positive, emotionale Erfahrungen bleiben im Gedächtnis von Kunden und stärken die Kundenbindung.",
+            "en-GB": "Personalization in e-commerce creates shopping experiences and that makes all the difference - because positive, emotional experiences stay in customers' memories and strengthen customer loyalty."
+        },
+        "manufacturerLink": {
+            "de-DE": "https://shapeandshift.dev/",
+            "en-GB": "https://shapeandshift.dev/"
+        },
+        "supportLink": {
+            "de-DE": "https://github.com/Shape-and-Shift/EpoqPersonalization/issues",
+            "en-GB": "https://github.com/Shape-and-Shift/EpoqPersonalization/issues"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{% block epoq_personalization_script %}
+    {% if config('EpoqPersonalization.config.tenantId') %}
+        <script src="https://cdn.epoq.de/flow/{{ config('EpoqPersonalization.config.tenantId') }}.js"></script>
+    {% endif %}
+{% endblock %}
