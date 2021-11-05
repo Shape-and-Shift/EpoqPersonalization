@@ -16,6 +16,9 @@ Download the plugin from the release page and enable it in shopware.
 ## Usage
 
 Go to your plugin settings and enter your Epoq Tenant ID.
+To check if the Tenant ID just hit the **Test Tenant ID** Button.
+
+After you entered your Tenant ID Epoq is ready to use.
 
 
 ## License
