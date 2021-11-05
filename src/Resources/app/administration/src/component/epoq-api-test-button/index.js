@@ -38,7 +38,7 @@ Component.register('epoq-api-test-button', {
         check() {
             this.isLoading = true;
             this.epoqApiTest.check(this.pluginConfig['EpoqPersonalization.config.tenantId']).then((res) => {
-                if (res.status === 200) {
+                if (res.success) {
                     this.isSaveSuccessful = true;
                     this.createNotificationSuccess({
                         title: this.$tc('epoq-api-test-button.title'),

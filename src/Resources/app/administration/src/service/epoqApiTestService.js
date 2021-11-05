@@ -11,7 +11,7 @@ class ApiClient extends ApiService {
         const headers = this.getBasicHeaders({});
 
         return this.httpClient
-            .get(`https://cdn.epoq.de/flow/${tenantId}.js`, null,{
+            .post(`_action/${this.getApiBasePath()}/verify`, { tenantId: tenantId },{
                 headers
             })
             .then((response) => {
