@@ -7,7 +7,7 @@ on:
             - '*'
 
 env:
-    PLUGIN_NAME: EpoqPersonalization
+    PLUGIN_NAME: EpoqPersonalizationPlatform
     ACCOUNT_USER: ${{ secrets.ACCOUNT_USER }}
     ACCOUNT_PASSWORD: ${{ secrets.ACCOUNT_PASSWORD }}
 

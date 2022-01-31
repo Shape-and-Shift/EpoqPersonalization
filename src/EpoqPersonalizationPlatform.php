@@ -4,6 +4,6 @@ namespace Epoq\Personalization;
 
 use Shopware\Core\Framework\Plugin;
 
-class EpoqPersonalization extends Plugin
+class EpoqPersonalizationPlatform extends Plugin
 {
 }
