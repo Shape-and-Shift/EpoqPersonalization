@@ -1,5 +1,5 @@
 {
-    "name":"epoq/personalization",
+    "name":"epoq/personalization-platform",
     "keywords": [
         "shopware",
         "epoq",
@@ -24,7 +24,7 @@
         }
     },
     "extra":{
-        "shopware-plugin-class":"Epoq\\Personalization\\EpoqPersonalization",
+        "shopware-plugin-class":"Epoq\\Personalization\\EpoqPersonalizationPlatform",
         "copyright":"(c) 2021 by Epoq GmbH",
         "label":{
             "de-DE":"Epoq Personalisierung",

@@ -37,7 +37,7 @@ Component.register('epoq-api-test-button', {
 
         check() {
             this.isLoading = true;
-            this.epoqApiTest.check(this.pluginConfig['EpoqPersonalization.config.tenantId']).then((res) => {
+            this.epoqApiTest.check(this.pluginConfig['EpoqPersonalizationPlatform.config.tenantId']).then((res) => {
                 if (res.success) {
                     this.isSaveSuccessful = true;
                     this.createNotificationSuccess({
