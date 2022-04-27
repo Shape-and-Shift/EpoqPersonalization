@@ -1,5 +1,5 @@
 {% block epoq_personalization_script %}
     {% if config('EpoqPersonalizationPlatform.config.tenantId') %}
-        <script src="https://cdn.epoq.de/flow/{{ config('EpoqPersonalizationPlatform.config.tenantId') }}.js"></script>
+        <script async src="https://cdn.epoq.de/flow/{{ config('EpoqPersonalizationPlatform.config.tenantId') }}.js"></script>
     {% endif %}
 {% endblock %}
